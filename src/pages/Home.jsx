@@ -9,6 +9,10 @@ const Home = () => {
   return(
       <div style={homeStyles} className={"home"}>
           <SAbout/>
+          <div className={"image__h2"}>
+              <h2>Images:</h2>
+          </div>
+
           <Carrousel/>
       </div>
   )
